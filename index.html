@@ -1,11 +1,80 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Revista Científica UESPI Digital</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-    
+    <header>
+        <h1>Revista Científica UESPI Digital</h1>
+        <img src="" alt="Logo da Revista">
+        <nav>
+            <a href="#start">Início</a>
+            <a href="#editions">Edições</a>
+            <a href="#authors">Autores</a>
+            <a href="#form">Submissão</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="start">
+            <p></p>
+            <figure>
+                <img src="" alt="">
+                <figcaption></figcaption>
+            </figure>
+        </section>
+
+        <section id="editions">
+
+        </section>
+
+        <section id="authors">
+
+        </section>
+
+        <section id="form">
+            <form action="">
+                <p>
+                    <label for="name">Nome Completo:</label>
+                    <input type="text" id="name" name="name" required>
+                </p>
+                <p>
+                    <label for="email">E-mail institucional:</label>
+                    <input type="email" id="email" name="email" required>
+                </p>
+                <p>
+                    <label for="area">Área de Interesse:</label>
+                    <select id="area" name="area" required>
+                        <option value="">Selecione uma área</option>
+                        <option value="area1">Área 1</option>
+                        <option value="area2">Área 2</option>
+                        <option value="area3">Área 3</option>
+                    </select>
+                </p>
+                <p>
+                    <label for="perfil">Perfil:</label>
+                    <input type="radio" id="author" name="perfil" value="author" required>
+                </p>
+                <p>
+                    <label for="coauthor">Resumo da proposta:</label>
+                    <textarea id="coauthor" name="coauthor" rows="4" required></textarea>
+                </p>
+                <p>
+                    <button type="submit">Enviar</button>
+                    <button type="reset">Limpar</button>
+                </p>
+            </form>
+        </section>
+
+    </main>
+
+    <footer></footer>
 </body>
+
 </html>
