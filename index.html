@@ -23,7 +23,28 @@
 
     <main>
         <section id="start">
-            <p></p>
+            <h2>Apresentação da Revista</h2>
+            <p>Bem-vindo à Revista Científica UESPI Digital, o periódico oficial da Universidade
+                Estadual do Piauí dedicado à disseminação do conhecimento e ao fomento da produção
+                acadêmica. Nossa missão é servir como dedicado à disseminação do conhecimento e ao
+                fomento da produção acadêmica. Nossa missão é servir como uma plataforma de
+                excelência para que alunos, professores e pesquisadores possam compartilhar suas
+                descobertas, análises e reflexões com a comunidade científica regional, nacional
+                e internacional.</p>
+
+            <p>Publicando artigos originais, ensaios e revisões de literatura, a revista abrange
+                uma vasta gama de áreas do saber, incluindo Ciências da Computação, Engenharias,
+                Humanidades e Ciências Sociais. Buscamos promover o diálogo interdisciplinar e
+                do saber, incluindo Ciências da Computação, Engenharias, Humanidades e Ciências
+                Sociais. Buscamos promover o diálogo interdisciplinar e valorizar pesquisas que
+                apresentem relevância teórica e impacto prático, contribuindo para o avanço da
+                ciência e para o desenvolvimento da sociedade.</p>
+
+            <p>Convidamos você a explorar nossas edições publicadas, conhecer os autores que fazem
+                parte da nossa história e, caso seja um pesquisador, a considerar a UESPI Digital
+                como o veículo para a sua próxima publicação. A submissão de artigos é um processo
+                contínuo e aberto a toda a comunidade acadêmica. Junte-se a nós na construção de um
+                futuro baseado na ciência e na inovação.</p>
             <figure>
                 <img src="" alt="">
                 <figcaption></figcaption>
@@ -31,40 +52,92 @@
         </section>
 
         <section id="editions">
+            <div>
+                <img src="" alt="">
+                <h4>Revista UESPI Digital - V. 1, N. 1</h4>
+                <p>Período: Jan-Jun 2024</p>
+                <a href="#">Acessar edição</a>
+            </div>
 
+            <div>
+                <img src="" alt="">
+                <h4>Revista UESPI Digital - V. 1, N. 2</h4>
+                <p>Período: Jul-Dez 2024</p>
+                <a href="#">Acessar edição</a>
+            </div>
+
+            <div>
+                <img src="" alt="">
+                <h4>Revista UESPI Digital - V. 1, N. 3</h4>
+                <p>Período: Jan-Jun 2025</p>
+                <a href="#">Acessar edição</a>
+            </div>
         </section>
 
-        <section id="authors">
+        <section id="autores">
 
+            <h2>Autores em Destaque</h2>
+            <div>
+                <article> <img src="" alt="Foto do Professor Dr. Carlos Silva">
+                    <h3>Dr. Carlos Silva</h3>
+                    <p>Área: Inteligência Artificial</p>
+                    <p>Instituição: UESPI</p>
+                </article>
+
+                <article> <img src="" alt="Foto da Professora Dra. Ana Pereira">
+                    <h3>Dra. Ana Pereira</h3>
+                    <p>Área: Engenharia de Software</p>
+                    <p>Instituição: UESPI</p>
+                </article>
+
+                <article> <img src="" alt="Foto do Professor Dr. João Costa">
+                    <h3>Dr. João Costa</h3>
+                    <p>Área: Redes de Computadores</p>
+                    <p>Instituição: UESPI</p>
+                </article>
+
+            </div>
         </section>
 
         <section id="form">
-            <form action="">
+            <h2>Formulário de Submissão</h2>
+            <form>
                 <p>
                     <label for="name">Nome Completo:</label>
-                    <input type="text" id="name" name="name" required>
+                    <input type="text" id="name" name="name" title="" required>
                 </p>
+
                 <p>
                     <label for="email">E-mail institucional:</label>
-                    <input type="email" id="email" name="email" required>
+                    <input type="email" id="email" name="email" title="" required>
                 </p>
+
                 <p>
                     <label for="area">Área de Interesse:</label>
-                    <select id="area" name="area" required>
+                    <select id="area" name="area" title="" required>
                         <option value="">Selecione uma área</option>
-                        <option value="area1">Área 1</option>
-                        <option value="area2">Área 2</option>
-                        <option value="area3">Área 3</option>
+                        <option value="area1">Ciência da Computação</option>
+                        <option value="area2">Engenharia de Software</option>
+                        <option value="area3">Redes de Computadores</option>
+                        <option value="area4">Inteligência Artificial</option>
+                        <option value="area5">Ciências Sociais</option>
                     </select>
                 </p>
+
+                <fieldset>
+                    <legend>Perfil:</legend>
+                    <input type="radio" id="professor" name="perfil" value="professor" title="" required>
+                    <label for="professor">Professor</label>
+                    <input type="radio" id="aluno" name="perfil" value="aluno" title="" required>
+                    <label for="aluno">Aluno</label>
+                </fieldset>
+
                 <p>
-                    <label for="perfil">Perfil:</label>
-                    <input type="radio" id="author" name="perfil" value="author" required>
+                    <label for="textarea">Resumo da proposta:</label>
+                    <textarea id="textarea" name="textarea" rows="4" title="Digite um resumo da proposta"
+                        required></textarea>
                 </p>
-                <p>
-                    <label for="coauthor">Resumo da proposta:</label>
-                    <textarea id="coauthor" name="coauthor" rows="4" required></textarea>
-                </p>
+
                 <p>
                     <button type="submit">Enviar</button>
                     <button type="reset">Limpar</button>
@@ -74,7 +147,21 @@
 
     </main>
 
-    <footer></footer>
+    <footer>
+        <address>
+            <p>Contato Editorial</p>
+            <p>Email: contato.revista@uespi.br</p>
+            <p>Telefone: (86) 9999-9999</p>
+        </address>
+        <div class="social-media">
+            <p>Redes Sociais:</p>
+            <ul>
+                <li><a href="http://www.facebook.com/uespi" target="_blank">Facebook</a></li>
+                <li><a href="http://www.twitter.com/uespi" target="_blank">Twitter</a></li>
+                <li><a href="http://www.instagram.com/uespi" target="_blank">Instagram</a></li>
+            </ul>
+        </div>
+    </footer>
 </body>
 
 </html>
