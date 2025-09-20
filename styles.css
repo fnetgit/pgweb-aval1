@@ -9,7 +9,7 @@
 
 :root {
   --background-color: #ffffff;
-  --text-color: #ffffff;
+  --highlight-text-color: #ffffff;
   --secundary-color: #363636bd;
   --box-color: #242424bd;
 }
@@ -29,7 +29,7 @@ header {
 }
 header h1 {
   font-family: "Roboto Serif", serif;
-  color: var(--text-color);
+  color: var(--highlight-text-color);
   font-size: 1.2rem;
   margin-bottom: 10px;
 }
@@ -47,7 +47,7 @@ nav {
 }
 nav a {
   padding: 20px;
-  color: var(--text-color);
+  color: var(--highlight-text-color);
   transition: all 0.6s ease;
 }
 nav a:hover {
@@ -67,4 +67,16 @@ nav a:hover {
 .start p {
   text-align: justify;
   padding: 15px;
+}
+
+.start figure img {
+  width: 50%;
+  display: block;
+  margin: 0 auto;
+}
+
+.start figure figcaption {
+  text-align: center;
+  font-size: 0.9rem;
+  margin-top: 5px;
 }
