@@ -28,8 +28,9 @@ header {
   text-align: center;
 }
 header h1 {
+  font-family: "Roboto Serif", serif;
   color: var(--text-color);
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   margin-bottom: 10px;
 }
 header img {
@@ -54,3 +55,16 @@ nav a:hover {
 }
 
 /* ------------------------------------------------*/
+.start {
+  padding: 20px;
+  gap: 10px;
+}
+
+.start hr {
+  height: 2px;
+}
+
+.start p {
+  text-align: justify;
+  padding: 15px;
+}
