@@ -147,67 +147,83 @@
       </section>
 
       <section id="form">
-        <h2>Formulário de Submissão</h2>
         <form>
-          <p>
-            <label for="name">Nome Completo:</label>
-            <input type="text" id="name" name="name" title="" required />
-          </p>
-
-          <p>
-            <label for="email">E-mail institucional:</label>
-            <input type="email" id="email" name="email" title="" required />
-          </p>
-
-          <p>
-            <label for="area">Área de Interesse:</label>
-            <select id="area" name="area" title="" required>
-              <option value="">Selecione uma área</option>
-              <option value="area1">Ciência da Computação</option>
-              <option value="area2">Engenharia de Software</option>
-              <option value="area3">Redes de Computadores</option>
-              <option value="area4">Inteligência Artificial</option>
-              <option value="area5">Ciências Sociais</option>
-            </select>
-          </p>
-
           <fieldset>
-            <legend>Perfil:</legend>
-            <input
-              type="radio"
-              id="professor"
-              name="perfil"
-              value="professor"
-              title=""
-              required
-            />
-            <label for="professor">Professor</label>
-            <input
-              type="radio"
-              id="aluno"
-              name="perfil"
-              value="aluno"
-              title=""
-              required
-            />
-            <label for="aluno">Aluno</label>
+            <legend>Formulário de Submissão</legend>
+            <p>
+              <label for="name">Nome Completo:</label>
+              <input
+                type="text"
+                id="name"
+                name="name"
+                class="form-input-text"
+                title=""
+                required
+              />
+            </p>
+
+            <p>
+              <label for="email">E-mail institucional:</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                class="form-input-text"
+                title=""
+                required
+              />
+            </p>
+
+            <p>
+              <label for="area">Área de Interesse:</label>
+              <select id="area" name="area" title="" required>
+                <option value="">Selecione uma área</option>
+                <option value="area1">Ciência da Computação</option>
+                <option value="area2">Engenharia de Software</option>
+                <option value="area3">Redes de Computadores</option>
+                <option value="area4">Inteligência Artificial</option>
+                <option value="area5">Ciências Sociais</option>
+              </select>
+            </p>
+
+            <fieldset>
+              <legend>Perfil:</legend>
+              <input
+                type="radio"
+                id="professor"
+                name="perfil"
+                value="professor"
+                title=""
+                required
+              />
+              <label for="professor">Professor</label>
+              <input
+                type="radio"
+                id="aluno"
+                name="perfil"
+                value="aluno"
+                title=""
+                required
+              />
+              <label for="aluno">Aluno</label>
+            </fieldset>
+
+            <p>
+              <label for="textarea">Resumo da proposta:</label>
+              <textarea
+                id="textarea"
+                name="textarea"
+                rows="4"
+                title="Digite um resumo da proposta"
+                required
+              ></textarea>
+            </p>
+
+            <p>
+              <button type="submit">Enviar</button>
+              <button type="reset">Limpar</button>
+            </p>
           </fieldset>
-
-          <p>
-            <label for="textarea">Resumo da proposta:</label>
-            <textarea
-              id="textarea"
-              name="textarea"
-              rows="4"
-              title="Digite um resumo da proposta"
-              required
-            ></textarea>
-          </p>
-
-          <p>
-            <button type="submit">Enviar</button>
-            <button type="reset">Limpar</button>
-          </p>
         </form>
       </section>
     </main>
