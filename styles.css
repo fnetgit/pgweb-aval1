@@ -48,7 +48,7 @@ header h1 {
 }
 
 header img {
-  height: 6rem;
+  height: 8.5rem;
 }
 
 /* ------------------------------------------------*/
@@ -212,10 +212,34 @@ nav a:hover {
 }
 
 #form #textarea {
-  margin-top: 30px
+  margin-top: 30px;
 }
 .form-input-text {
   width: 30%;
 }
 
 /* ------------------------------------------------*/
+
+footer a {
+  color: var(--clr-accent);
+  transition: all 0.6s ease;
+  text-decoration: none;
+}
+
+footer i {
+  font-size: 1.8rem;
+}
+
+footer ul {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+footer {
+  background-color: var(--clr-bg-secundary);
+  color: var(--clr-text-light);
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+}
