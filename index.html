@@ -12,10 +12,6 @@
       href="https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
-    <link
-      href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
-      rel="stylesheet"
-    />
   </head>
 
   <body>
@@ -172,10 +168,10 @@
         </div>
       </section>
 
-      <section id="form">
+      <section class="form">
         <form>
           <fieldset>
-            <legend>Formulário de Submissão</legend>
+            <legend id="form-title">Formulário de Submissão</legend>
             <p>
               <label for="name">Nome Completo:</label>
               <input
@@ -212,12 +208,12 @@
               </select>
             </p>
 
-            <fieldset>
-              <legend id="perfil-titulo">Perfil:</legend>
+            <fieldset id="profile-fieldset">
+              <legend id="profile-title">Perfil:</legend>
               <input
                 type="radio"
                 id="professor"
-                name="perfil"
+                name="profile"
                 value="professor"
                 title=""
                 required
@@ -225,23 +221,23 @@
               <label for="professor">Professor</label>
               <input
                 type="radio"
-                id="aluno"
-                name="perfil"
-                value="aluno"
+                id="student"
+                name="profile"
+                value="student"
                 title=""
                 required
               />
-              <label for="aluno">Aluno</label>
+              <label for="student">Aluno</label>
             </fieldset>
 
-            <p>
-              <label class="form-label" for="textarea"
+            <p id="textarea-p">
+              <label for="textarea"
                 >Resumo da proposta:</label
               >
               <textarea
                 id="textarea"
                 name="textarea"
-                rows="4"
+                rows="10"
                 title="Digite um resumo da proposta"
                 required
               ></textarea>
@@ -273,19 +269,19 @@
         <ul>
           <li>
             <a href="https://www.facebook.com/uespioficial/" target="_blank"
-              ><i class="ri-facebook-circle-fill"></i>
+              >Facebook</i>
             </a>
           </li>
           <li>
             <a
               href="https://br.linkedin.com/school/universidade-estadual-do-piau%C3%AD/"
               target="_blank"
-              ><i class="ri-linkedin-fill"></i
+              >LinkedIn</i
             ></a>
           </li>
           <li>
             <a href="https://www.instagram.com/uespioficial/" target="_blank"
-              ><i class="ri-instagram-fill"></i
+              >Instagram</i
             ></a>
           </li>
         </ul>
