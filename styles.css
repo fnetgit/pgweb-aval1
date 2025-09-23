@@ -48,13 +48,6 @@ header {
   text-align: center;
 }
 
-/* header h1 {
-  font-family: var(--font-secondary);
-  color: var(--clr-text-light);
-  font-size: 1.2rem;
-  margin-bottom: 50px;
-} */
-
 header img {
   height: 7rem;
   margin-bottom: 1rem;
@@ -203,7 +196,6 @@ nav a:hover {
 }
 
 #form form {
-  max-width: 1200px;
   margin: 0 auto;
 }
 
@@ -226,13 +218,38 @@ nav a:hover {
 
 #form #perfil-titulo {
   font-size: 1.1rem;
+  display: flex;
 }
 
 #form #textarea {
-  margin-top: 30px;
+  margin-top: 10px;
+  width: 100%;
+  display: flex;
 }
+
 .form-input-text {
-  width: 30%;
+  flex-direction: column;
+  margin-bottom: 15px;
+  gap: 5px;
+  width: 100%;
+}
+
+#form button {
+  display: flex;
+  margin: 10px auto 0 auto;
+  padding: 10px 20px;
+  background-color: var(--clr-bg-secundary);
+  color: var(--clr-text-light);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+  max-width: 200px;
+  justify-content: center;
+}
+
+#area {
+  width: 100%;
 }
 
 footer {
