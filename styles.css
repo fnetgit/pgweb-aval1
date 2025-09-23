@@ -195,10 +195,6 @@ nav a:hover {
   padding: 40px 20px;
 }
 
-.form form {
-  margin: 0 auto;
-}
-
 .form fieldset {
   border: 1px solid var(--clr-border);
   border-radius: 8px;
@@ -206,11 +202,11 @@ nav a:hover {
   box-shadow: 0 4px 8px var(--clr-border);
 }
 
-.form #profile-fieldset {
+#profile-fieldset {
   margin-top: 20px;
 }
 
-.form #profile-fieldset input {
+#profile-fieldset input {
   margin-left: 30px;
 }
 
@@ -221,17 +217,16 @@ nav a:hover {
   background-color: var(--clr-bg-primary);
 }
 
-.form #form-title {
+#form-title {
   color: var(--clr-bg-secundary);
   font-weight: bold;
 }
 
-.form #profile-title {
+#profile-title {
   font-size: 1.1rem;
-  display: flex;
 }
 
-.form #textarea {
+#textarea {
   margin-top: 10px;
   width: 100%;
   display: flex;
@@ -310,10 +305,6 @@ footer a:hover {
 }
 
 @media (min-width: 768px) {
-  h2 {
-    text-align: center;
-  }
-
   header {
     display: flex;
     justify-content: space-between;
