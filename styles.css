@@ -9,7 +9,6 @@
 
 :root {
   --clr-bg-primary: #ffffff;
-  /* --clr-bg-secundary: #363636bd; */
   --clr-bg-secundary: #063c73;
   --clr-bg-terciary: #9d1414;
   --clr-border: #cccccc;
@@ -229,7 +228,6 @@ nav a:hover {
 #textarea {
   margin-top: 10px;
   width: 100%;
-  display: flex;
   resize: none;
   border-color: var(--clr-border);
   font-family: var(--font-primary);
@@ -244,9 +242,7 @@ nav a:hover {
 }
 
 .form-input-text {
-  flex-direction: column;
   margin-bottom: 15px;
-  gap: 5px;
   width: 100%;
   height: 30px;
 }
@@ -255,7 +251,7 @@ nav a:hover {
   display: flex;
   margin: 10px auto 0 auto;
   padding: 10px 20px;
-  background-color: var(--clr-bg-secundary);
+  background-color: var(--clr-muted);
   color: var(--clr-text-light);
   border: none;
   border-radius: 5px;
@@ -263,6 +259,14 @@ nav a:hover {
   width: 100%;
   max-width: 200px;
   justify-content: center;
+}
+
+#submit-button:hover {
+  background-color: var(--clr-bg-secundary);
+}
+
+#clear-button:hover {
+  background-color: var(--clr-bg-terciary);
 }
 
 #area {
