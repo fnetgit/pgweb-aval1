@@ -232,11 +232,15 @@ nav a:hover {
   display: flex;
   resize: none;
   border-color: var(--clr-border);
+  font-family: var(--font-primary);
+  font-size: medium;
 }
 
 #textarea-p label {
   display: flex;
   margin-top: 30px;
+  font-family: var(--font-primary);
+  font-size: medium;
 }
 
 .form-input-text {
