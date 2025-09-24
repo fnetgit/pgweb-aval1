@@ -194,10 +194,6 @@ nav a:hover {
   margin-top: 0.5rem;
 }
 
-.form {
-  padding: 40px 100px;
-}
-
 .form fieldset {
   border: 1px solid var(--clr-border);
   border-radius: 8px;
@@ -361,6 +357,10 @@ footer a:hover {
 
   #area {
     width: 100%;
+  }
+
+  .form {
+    padding: 40px 100px;
   }
 
   .form-group {
