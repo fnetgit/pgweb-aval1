@@ -46,3 +46,5 @@ Uma página web institucional e responsiva desenvolvida para representar a Revis
 - [Fabricio Fontenele Vieira](https://github.com/Fabricio-Fontenele)
 - [Francisco Alves Ribeiro Neto](https://github.com/fnetgit)
 - [Ruan Pedro de Araujo Anjos](https://github.com/oAnjophb)
+
+**[Enunciado da Avaliação (PDF)](./aval1-prob15.pdf)**

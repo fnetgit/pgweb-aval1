@@ -79,7 +79,7 @@
             alt="Capa da Revista UESPI Digital, Volume 1, Número 1"
           />
           <h4>Revista UESPI Digital - V. 1, N. 1</h4>
-          <p>Período: Jan-Jun 2024</p>
+          <p>Período: Jan-Jun 2023</p>
           <a href="#editions">Acessar edição</a>
         </article>
 
@@ -89,7 +89,7 @@
             alt="Capa da Revista UESPI Digital, Volume 1, Número 2"
           />
           <h4>Revista UESPI Digital - V. 1, N. 2</h4>
-          <p>Período: Jul-Dez 2024</p>
+          <p>Período: Jul-Dez 2023</p>
           <a href="#editions">Acessar edição</a>
         </article>
 
@@ -99,7 +99,7 @@
             alt="Capa da Revista UESPI Digital, Volume 2, Número 1"
           />
           <h4>Revista UESPI Digital - V. 2, N. 1</h4>
-          <p>Período: Jan-Jun 2025</p>
+          <p>Período: Jan-Jun 2024</p>
           <a href="#editions">Acessar edição</a>
         </article>
 
@@ -109,7 +109,7 @@
             alt="Capa da Revista UESPI Digital, Volume 2, Número 2"
           />
           <h4>Revista UESPI Digital - V. 2, N. 2</h4>
-          <p>Período: Jul-Dez 2025</p>
+          <p>Período: Jul-Dez 2024</p>
           <a href="#editions">Acessar edição</a>
         </article>
 
@@ -119,7 +119,7 @@
             alt="Capa da Revista UESPI Digital, Volume 2, Número 3"
           />
           <h4>Revista UESPI Digital - V. 2, N. 3</h4>
-          <p>Período: Jan-Jun 2026</p>
+          <p>Período: Jan-Jun 2025</p>
           <a href="#editions">Acessar edição</a>
         </article>
 
@@ -129,7 +129,7 @@
             alt="Capa da Revista UESPI Digital, Volume 2, Número 4"
           />
           <h4>Revista UESPI Digital - V. 2, N. 4</h4>
-          <p>Período: Jan-Dez 2026</p>
+          <p>Período: Jan-Dez 2025</p>
           <a href="#editions">Acessar edição</a>
         </article>
       </section>
@@ -181,7 +181,8 @@
                   id="name"
                   name="name"
                   class="form-input-text"
-                  title=""
+                  placeholder="Digite seu nome completo"
+                  title="Digite seu nome completo"
                   required
                 />
               </div>
@@ -193,14 +194,16 @@
                   id="email"
                   name="email"
                   class="form-input-text"
-                  title=""
+                  placeholder="seuemail@uespi.br"
+                  title="Digite seu e-mail institucional"
                   required
-                />
+                  />
+                  <!-- pattern="[a-z0-9._%+-]+@uespi\.br$" -->
               </div>
 
               <div class="form-field">
                 <label for="area">Área de Interesse:</label>
-                <select id="area" name="area" title="" required>
+                <select id="area" name="area" title="Selecione a área de interesse do seu artigo" required>
                   <option value="">Selecione uma área</option>
                   <option value="area1">Ciência da Computação</option>
                   <option value="area2">Engenharia de Software</option>
@@ -219,7 +222,7 @@
                       id="professor"
                       name="profile"
                       value="professor"
-                      title=""
+                      title="Selecione se você é professor"
                       required
                     />
                     <label for="professor">Professor</label>
@@ -230,7 +233,7 @@
                       id="student"
                       name="profile"
                       value="student"
-                      title=""
+                      title="Selecione se você é aluno"
                       required
                     />
                     <label for="student">Aluno</label>
@@ -245,6 +248,7 @@
                 id="textarea"
                 name="textarea"
                 rows="10"
+                placeholder="Escreva um resumo da sua proposta aqui..."
                 title="Digite um resumo da proposta"
                 required
               ></textarea>
